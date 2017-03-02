@@ -15,7 +15,8 @@
   "dependencies": {
     "vue": "^2.1.10",
     "vue-router": "^2.2.0",
-    "jquery" : "^2.2.3"
+    "jquery" : "^2.2.3",
+    "velocity-animate":"^1.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

@@ -33,7 +33,6 @@ export default new Router({
       name: 'Blog',
       component: Blog,
       children: [
-        { path: '/blog', component: Website },
         { path: '/blog/website', component: Website },
         { path: '/blog/weekly', component: Weekly }
       ]

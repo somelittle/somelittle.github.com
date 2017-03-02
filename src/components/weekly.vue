@@ -8,6 +8,7 @@
   	<a href="http://fex.baidu.com/weekly/">百度FEX</a>
   	<a href="https://weekly.75team.com/">奇舞周刊</a>
   	<a href="http://www.feweekly.com">feweekly</a>
+    ...
 
   </div>
 </template>
