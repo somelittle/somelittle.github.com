@@ -19,7 +19,7 @@ footer{
     height:40px;
 }
 
-.wrap { height: 100% }
+.wrap { height: 100% ;}
 
 .bg{
     background:linear-gradient(to bottom,#E2E3E2 0%,#EBECEC 100%) repeat scroll 0 0 rgba(0,0,0,0)
@@ -375,10 +375,18 @@ footer{
 .floatnav .menulist li:last-child { margin: 0 }
 .floatnav .menulist li a { display: block; line-height: 60px; background:rgba(0,0,0,0.8); color: #fff; text-decoration: none; font-size: 12px; text-align: center;  }
 .floatnav-wrap {  margin-left: 60px; padding: 10px; }
-
 .aboutarea { padding: 20px 10px; }
+.bigwords { width:80%; position: fixed; left:5%; top:20%; }
 .aboutarea p { font-size: 12px; line-height:20px; }
-
+.aboutarea .bigwords> h3 { margin: 0; opacity: 0.3; padding: 0; font-size: 150px; color: #e7e7e7; letter-spacing: 2px; font-family:"Times New Roman",Times,serif; }
+.aboutnav { position: fixed; right:5%; top: 80px; display: inline-block; height: 60px; margin: 0; padding: 0;font-size:0;/* border-left: 4px solid #666;  border-right: 4px solid #dd4b39*/;/*border-bottom: 3px solid #dd4b39;*/ border-radius: 3px }
+.aboutnav li { display: inline-block; list-style: none; margin: 0; padding: 0;} 
+.aboutnav li:nth-child(1) {background:#dd4b39;background:rgba(255,51,51,0.6);}
+.aboutnav li:nth-child(2) {background:#FFCC00;}
+.aboutnav li:nth-child(3) {background:#32a3ef;background:rgba(50,163,239,0.6)}
+.aboutnav li:last-child { background:#32a3ef;background:rgba(0,0,0,0.6); }
+.aboutnav li a { display:inline-block; width: 60px; line-height: 60px; color: #fff; text-decoration: none; font-size: 12px; text-align: center;}
+.aboutshow { position: absolute;left:50%; top: 50%; width: 90%; height:460px; margin:-230px 0 0 -45%; color: #000; overflow: hidden; }
 .theidea {    
     position: absolute;
     left:50%;
@@ -389,7 +397,7 @@ footer{
     margin: -50px 0 0 -100px;
     /*-webkit-animation-delay: 1s;
     animation-delay: 1s;*/
-    /*border-radius: 50%; */   
+    /*border-radius: 50%; */
     /*opacity:0.8; */   
 }
 .theidea > p {
@@ -454,7 +462,7 @@ footer{
 
 .tabcontent {/* border: 1px solid #555;*/padding: 10px; }
 .nvlist { width:40% }
-.nvlist a { display: inline-block; margin:5px; color: #333 ; padding:2px 4px; border: 1px dashed #ccc; background: #f7f7f7; text-decoration: none; font-size: 12px;  }
+.nvlist a { display: inline-block; margin:5px; color:#333; padding:2px 4px; border: 1px dashed #ccc; background:#f7f7f7; text-decoration: none; font-size: 12px;  }
 
 .cav{
     width: 280px;
@@ -1579,6 +1587,9 @@ footer{
 
 .nvlist { width:80% }
 
+.aboutarea .bigwords > h3 { font-size: 90px; }
+.aboutnav { top: 60px; }
+.aboutshow { top:120px; margin-top: 0 }
 
 .maintitle{
     width:320px;
