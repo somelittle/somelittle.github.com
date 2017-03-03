@@ -1,7 +1,7 @@
 # myvue
 
 > A Vue.js project
-> build width vue-cli
+> build with vue-cli
 
 ## Build Setup
 
