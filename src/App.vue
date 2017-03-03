@@ -15,23 +15,12 @@
       <div class="me" ref="me">
           <span></span>
           <i></i>              
-      </div>
-      <div class="aboutme">
-          <div class="mehere" id="mehere">    
-              <div class="mepic"></div>
-              <div class="medetail">            
-                  <h3>SOMELITLE</h3>
-                  <p>chenXingbin</p>
-                  <p>croow@aliyun.com</p>
-              </div>
-          </div>    
-      </div>
+      </div>      
     </header>            
     <section id="content" class="content">
     <transition name="fade" mode="out-in">
       <router-view class="view"></router-view>
-    </transition>
-                         
+    </transition>                         
     </section> 
       <footer class="bottom">            
         <ul class="navtool">

@@ -31,7 +31,7 @@ export default {
       let maxheight = Math.round(height * 0.9)
       let minwidth = Math.round(window.innerWidth * 0.1)
       let minheight = Math.round(window.innerHeight * 0.1)
-      let words = 'HTML5,CSS3,Javascript,ES6,nodejs,npm,Webpack,Sass,Vuejs,Reactjs,Photoshop,ResponsiveDesign,frontend,PWA'.split(',')
+      let words = 'HTML5,CSS3,Javascript,canvas,WebGL,svg,WebRTC,ES6,nodejs,npm,Webpack,Sass,Vuejs,Reactjs,Photoshop,ResponsiveDesign,PWA,ServerWorker'.split(',')
       let animstr = 'bounceIn,fadeIn,pulse,zoomIn,tada,swing'.split(',')
       let $thewords = $('#thewords')
       let $theidea = $('#theidea')
