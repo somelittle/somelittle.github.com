@@ -1,6 +1,6 @@
 # a website build with vue-cli
 > webpack+vue.js+vue-router+jquery
 
-> a demo for study
+> a demo for study ^_^_
 
 > [somelittle.github.io](https://somelittle.github.io)
